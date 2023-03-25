@@ -2,13 +2,14 @@
   "name": "electron-link",
   "version": "0.6.3",
   "description": "Generates scripts to pass to V8's `mksnapshot` tool.",
+  "homepage": "https://github.com/Alex313031/electron-link-ng#readme",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/**/*.test.js --ui=tdd",
     "tdd": "electron-mocha test/**/*.test.js --ui=tdd --renderer --interactive --no-sandbox",
     "clean": "rm -r -f node_modules/"
   },
-  "author": "",
+  "author": "Alex313031 <https://github.com/Alex313031>",
   "license": "MIT",
   "devDependencies": {
     "dedent": "0.7.0",
@@ -28,5 +29,16 @@
     "recast": "^0.20.5",
     "resolve": "^1.21.0",
     "source-map": "^0.7.4"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex313031/electron-link-ng.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Alex313031/electron-link-ng/issues"
   }
 }
